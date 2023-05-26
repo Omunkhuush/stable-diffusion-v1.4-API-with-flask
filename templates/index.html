@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script language="JavaScript" type="text/javascript" src="../static/script/main.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </header> 
+    <body>
+        <form action="/search" method="POST">
+            <div class="topContainer">
+                <div class="uaeuLogoDiv">
+                    <img class="uaeuLogoImg" src="../static/images/UAEU_Logo.png" />
+                </div>
+                <div class="iriLogoDiv">
+                    <img class="iriLogoImg" src="../static/images/Lab Logo.JPG" />
+                </div>
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="slide">
+                            <img  src="../static/images/banner/1.png" />
+                            <div class="content">
+                                <h2>PROMPT</h2>
+                                <div class="praDiv">
+                                    <p>A steampunk typewriter decorated with many flowers, the flowers are tucked in between the tips, detailed look, golden ratio, octane render, candles, ultra detail, intricate details, volumetric</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="../static/images/banner/2.png" />
+                            <div class="content">
+                                <h2>PROMPT</h2>
+                                <div class="praDiv">
+                                    <p>An astronaut is riding a horse on the mars</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="../static/images/banner/3.png" />
+                            <div class="content">
+                                <h2>PROMPT</h2>
+                                <div class="praDiv">
+                                    <p>Artwork by artgerm and Alex Flores and Maciej Kuciara. A female cyborg in a full high tech Exo Suit, LED lighting accents, intricate design. Intricate, high detail, digital painting, hyperrealis</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="../static/images/banner/4.png" />
+                            <div class="content">
+                                <h2>PROMPT</h2>
+                                <div class="praDiv"> 
+                                    <p>Beautiful Woman appearing from colorful liquid oil paint, swirling paint, cinematic lighting, photo realistic</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img  src="../static/images/banner/5.png" />
+                            <div class="content">
+                                <h2>PROMPT</h2>
+                                <div class="praDiv">
+                                    <p>cute blue bird by Craig platt in the forest, ultra detail, intricate details, photo realistic, lifelike, digital art, 8k</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="../static/images/banner/6.png" />
+                            <div class="content">
+                                <h2>PROMPT</h2>
+                                <div class="praDiv">
+                                    <p>cyberpunk gandalf, hyperrealistic, phorealistic, 8k, volumetric lighting</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="../static/images/banner/7.png" />
+                            <div class="content">
+                                <h2>PROMPT</h2>
+                                <div class="praDiv">
+                                    <p>lake, trees, mountain in the background, Dan mumford, very detailed, 8k</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="../static/images/banner/8.png" />
+                            <div class="content">
+                                <h2>PROMPT</h2>
+                                <div class="praDiv">
+                                    <p>portrait image of beautiful Somali, character, character-art, highly detailed, ultra realistic, intricate, hyper maximalist, unreal engine 5, photorealistic, elegant, ornate, hyper realistic</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="../static/images/banner/9.png" />
+                            <div class="content">
+                                <h2>PROMPT</h2>
+                                <div class="praDiv">
+                                    <p>ship at sea, David Keochkerian, colorful, very detailed, special lighting, 4k, 8k</p>
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="../static/images/banner/10.png" />
+                            <div class="content">
+                                <h2>PROMPT</h2>
+                                <div class="praDiv">
+                                    <p>Tiny Cute Owl on a Branch, concept art, photorealistic, intricate detail, Jean Baptiste-Monge, winter, snow, Beautiful illustration, digital art, 4k, HD, Sharp Details, Hyper-realistic, HDr</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- same  10 sliew -->
+                        <div class="slide">
+                            <img  src="../static/images/banner/1.png" />
+                            <div class="content">
+                                <h2>PROMPT</h2>
+                                <div class="praDiv">
+                                    <p>A steampunk typewriter decorated with many flowers, the flowers are tucked in between the tips, detailed look, golden ratio, octane render, candles, ultra detail, intricate details, volumetric</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="../static/images/banner/2.png" />
+                            <div class="content">
+                                <h2>PROMPT</h2>
+                                <div class="praDiv">
+                                    <p>An astronaut is riding a horse on the mars</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="../static/images/banner/3.png" />
+                            <div class="content">
+                                <h2>PROMPT</h2>
+                                <div class="praDiv">
+                                    <p>Artwork by artgerm and Alex Flores and Maciej Kuciara. A female cyborg in a full high tech Exo Suit, LED lighting accents, intricate design. Intricate, high detail, digital painting, hyperrealis</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="../static/images/banner/4.png" />
+                            <div class="content">
+                                <h2>PROMPT</h2>
+                                <div class="praDiv"> 
+                                    <p>Beautiful Woman appearing from colorful liquid oil paint, swirling paint, cinematic lighting, photo realistic</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img  src="../static/images/banner/5.png" />
+                            <div class="content">
+                                <h2>PROMPT</h2>
+                                <div class="praDiv">
+                                    <p>cute blue bird by Craig platt in the forest, ultra detail, intricate details, photo realistic, lifelike, digital art, 8k</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="../static/images/banner/6.png" />
+                            <div class="content">
+                                <h2>PROMPT</h2>
+                                <div class="praDiv">
+                                    <p>cyberpunk gandalf, hyperrealistic, phorealistic, 8k, volumetric lighting</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="../static/images/banner/7.png" />
+                            <div class="content">
+                                <h2>PROMPT</h2>
+                                <div class="praDiv">
+                                    <p>lake, trees, mountain in the background, Dan mumford, very detailed, 8k</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="../static/images/banner/8.png" />
+                            <div class="content">
+                                <h2>PROMPT</h2>
+                                <div class="praDiv">
+                                    <p>portrait image of beautiful Somali, character, character-art, highly detailed, ultra realistic, intricate, hyper maximalist, unreal engine 5, photorealistic, elegant, ornate, hyper realistic</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="../static/images/banner/9.png" />
+                            <div class="content">
+                                <h2>PROMPT</h2>
+                                <div class="praDiv">
+                                    <p>ship at sea, David Keochkerian, colorful, very detailed, special lighting, 4k, 8k</p>
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="../static/images/banner/10.png" />
+                            <div class="content">
+                                <h2>PROMPT</h2>
+                                <div class="praDiv">
+                                    <p>Tiny Cute Owl on a Branch, concept art, photorealistic, intricate detail, Jean Baptiste-Monge, winter, snow, Beautiful illustration, digital art, 4k, HD, Sharp Details, Hyper-realistic, HDr</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--######################################################################################-->
+            <div class="searchContainer">
+                <input class="searchInput" type="text" id="name" name="name" placeholder="Search">
+                <button type="submit" class="submitBtn" onclick="showLoadingIcon()"><i class="fa fa-search fa-2x"></i></button>
+                <!--<input class="submitBtn" name="name" type="submit" value="Search"> --> 
+            </div>
+<!--#################################################################################-->
+            <div class="contentContainer">
+                {% if name %}
+                <h3 id="prompt" class="prompt">PROMPT:  {{ name }}</h3>
+                {% endif  %}
+                <div class="featuresContainer">
+                    <div class="featureDiv">
+                        <p id="featureTitle" class="featureTitle title">CHOOOSE FEATURES</p>
+                        <span class="spanBtn" id="closeUp" onclick="addFeature(this.id)">Close-Up</span>
+                        <span class="spanBtn" id="portrait" onclick="addFeature(this.id)">Portrait</span>
+                        <span class="spanBtn" id="fullBody" onclick="addFeature(this.id)">Full-Body</span>
+                        <span class="spanBtn" id="detailed" onclick="addFeature(this.id)">Detailed </span>
+                        <span class="spanBtn" id="realistic" onclick="addFeature(this.id)">Realistic</span>
+                        <span class="spanBtn" id="UltraHD" onclick="addFeature(this.id)">Ultra-HD</span>
+                        <span class="spanBtn" id="cyberpunk" onclick="addFeature(this.id)">Cyberpunk</span>
+                        <span class="spanBtn" id="hyperRealistic" onclick="addFeature(this.id)">Hyper-Realistic</span>
+                        <span class="spanBtn" id="davinciStyle" onclick="addFeature(this.id)">Davinci style</span>
+                        <span class="spanBtn" id="artNouveau" onclick="addFeature(this.id)">Art Nouveau</span>
+                        <span class="spanBtn" id="luisRoyo" onclick="addFeature(this.id)">Luis royo</span>
+                        <span class="spanBtn" id="vincentVanGogh" onclick="addFeature(this.id)">Vincent van Gogh</span>
+                        <span class="spanBtn" id="baroque" onclick="addFeature(this.id)">Baroque</span>
+                        <span class="spanBtn" id="yojiShinkawaStyle" onclick="addFeature(this.id)">Yoji Shinkawa style</span>
+                        <span class="spanBtn" id="avantGarde" onclick="addFeature(this.id)">Avant-garde</span>
+                        <span class="spanBtn" id="classicism" onclick="addFeature(this.id)">Classicism</span>
+                        <span class="spanBtn" id="colorful" onclick="addFeature(this.id)">Colorful</span>
+                        <span class="spanBtn" id="digitalArt" onclick="addFeature(this.id)">Digital Art</span>
+                        <span class="spanBtn" id="HandDrawn" onclick="addFeature(this.id)">Hand-Drawn</span>
+                        <span class="spanBtn" id="DigitalPainting" onclick="addFeature(this.id)">Digital painting</span>
+                        <span class="spanBtn" id="popArt" onclick="addFeature(this.id)">Pop Art</span>
+                        <span class="spanBtn" id="paperCutArt" onclick="addFeature(this.id)">Paper cut art</span>
+                        <span class="spanBtn" id="beautiful" onclick="addFeature(this.id)">Beautiful</span>
+                        <span class="spanBtn" id="ugly" onclick="addFeature(this.id)">Ugly</span>
+                        <span class="spanBtn" id="cute" onclick="addFeature(this.id)">Cute</span>
+                        <span class="spanBtn" id="smile" onclick="addFeature(this.id)">Smile</span>
+                        <span class="spanBtn" id="angry" onclick="addFeature(this.id)">Angry</span>
+                        <span class="spanBtn" id="Young" onclick="addFeature(this.id)">Young</span>
+                        <span class="spanBtn" id="old" onclick="addFeature(this.id)">Old</span>
+                        <span class="spanBtn" id="tiny" onclick="addFeature(this.id)">Tiny</span>
+                        <span class="spanBtn" id="big" onclick="addFeature(this.id)">Big</span>
+                        <span class="spanBtn" id="3D" onclick="addFeature(this.id)">3D</span>
+                        <span class="spanBtn" id="2D" onclick="addFeature(this.id)">2D</span>
+                        <span class="spanBtn" id="Cartoon" onclick="addFeature(this.id)">Cartoon</span>
+                        <span class="spanBtn" id="PixarAnimation" onclick="addFeature(this.id)">Pixar animation</span>
+                        <span class="spanBtn" id="Anime" onclick="addFeature(this.id)">Anime</span>
+                        <span class="spanBtn" id="animeEyes" onclick="addFeature(this.id)">Anime eyes</span>
+                        <span class="spanBtn" id="DisneyAnimation" onclick="addFeature(this.id)">Disney animation</span>
+                        
+                        
+                    </div>
+                </div>
+                <div class="resultDiv">
+                    <div class="resultBtnDiv">
+                        <div class="resultBtn" onclick="putPrompt()">Try again</div>
+                        <div class="resultBtn" id="resultBtn" onclick="showModal('modalContainer')" >Send email</div>
+                    </div>
+                    <div class="resultContainer">
+                        <!-- start modal window-->
+                        <div id="modalContainer" class="modalContainer">
+                            <div class="modalWindow">
+                                <div id="sendingDiv" class="sendingDiv">
+                                    <h4 class="modalTitle">Sending ...</h4>
+                                    <div class="lds-roller">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                                <div id="mailformDiv" class="mailformDiv">
+                                    <h3 class="modalTitle">Type Your Email</h3>
+                                    <form action="/mailer" method="POST">
+                                        <input name="mail" id="emailInput" type="email" class="modalInput" placeholder="example@gmail.com"/>
+                                        <button type="sumbit" class="modalSendBtn" onclick="sendEmail()">Send</button>
+                                    </form>
+                                    <div id="modalCloseBtn" class="modalCloseDiv" onclick="hideModal('modalContainer')">
+                                        <i class="fa fa-close modalClose"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end modal window-->
+                        <div id="loadingSpinner" class="loadingContainer">
+                            <div class="lds-facebook">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="generatedImageDiv">
+                            <div id="mainTextDiv" class="mainTextDiv" style="{{ mailTextstyle }}">
+                                <h1>Imagination is everything.</h1>
+                                <h1>  It is the preview of life's coming attractions</h1>
+                                <h4>Albert Einstein</h4>
+                            </div>
+                            <div id="genImage" class="genImage">
+                                {% if image %}
+                                <img src="{{ image }}">
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
