@@ -1,0 +1,7 @@
+diffusers
+transformers
+scipy
+accelerate
+python-dotenv
+flask
+flask_mail
