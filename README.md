@@ -55,7 +55,7 @@ python App.py
 ![runStable](https://github.com/Omunkhuush/stable-diffusion-v1.4-API-with-flask/assets/73123564/ccfb760c-9860-4292-a963-b3c8fc065c2a)
 ![runStable2](https://github.com/Omunkhuush/stable-diffusion-v1.4-API-with-flask/assets/73123564/61b9dc32-2699-4db4-8aca-4042fc08535e)
 
-# Test sample video
+# Test 
 
 https://github.com/Omunkhuush/stable-diffusion-v1.4-API-with-flask/assets/73123564/63a2c476-e80d-4a5a-bf51-51563d0230ad
 
