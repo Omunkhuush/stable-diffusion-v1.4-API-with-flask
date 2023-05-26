@@ -1,4 +1,4 @@
-# stable-diffusion-v1.4-API-with-flask
+# Stable-Diffusion-v1.4-API-with-Flask
 
 # Installation 
 
