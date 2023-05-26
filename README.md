@@ -1,5 +1,9 @@
 # Stable-Diffusion-v1.4-API-with-Flask
 
+# Description 
+
+This project generates what people want to see using a stable diffusion model and can send it to their email.
+
 # Installation 
 
 **1. Download repository**
