@@ -41,3 +41,22 @@ pip install -r requirement.txt
     <img width="100%" src="https://github.com/Omunkhuush/stable-diffusion-v1.4-API-with-flask/assets/73123564/d05bb6b1-3a3d-420d-8e0a-1178ce1c3d0e">
 </p>
 
+# Edit .env file. 
+**After obtaining the access tokens, make the necessary changes to the env file.**
+
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/Omunkhuush/stable-diffusion-v1.4-API-with-flask/assets/73123564/8834bb6f-b8aa-40a2-bf39-2cf70b1f52e0">
+</p>
+
+# Run WebApp
+```
+python App.py
+```
+![runStable](https://github.com/Omunkhuush/stable-diffusion-v1.4-API-with-flask/assets/73123564/ccfb760c-9860-4292-a963-b3c8fc065c2a)
+![runStable2](https://github.com/Omunkhuush/stable-diffusion-v1.4-API-with-flask/assets/73123564/61b9dc32-2699-4db4-8aca-4042fc08535e)
+
+# Test sample video
+
+https://github.com/Omunkhuush/stable-diffusion-v1.4-API-with-flask/assets/73123564/c29ff71a-ac18-49de-acd9-12917edf212c
+
+
