@@ -57,6 +57,6 @@ python App.py
 
 # Test sample video
 
-https://github.com/Omunkhuush/stable-diffusion-v1.4-API-with-flask/assets/73123564/c29ff71a-ac18-49de-acd9-12917edf212c
+https://github.com/Omunkhuush/stable-diffusion-v1.4-API-with-flask/assets/73123564/63a2c476-e80d-4a5a-bf51-51563d0230ad
 
 
